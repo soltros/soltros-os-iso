@@ -1,4 +1,4 @@
-name: Build and Push SoltrOS Image
+name: Build and Push SoltrOS ISO Image
 on:
   push:
     branches: ["main"]
