@@ -24,6 +24,7 @@ LAYERED_PACKAGES=(
     exfatprogs
     ntfs-3g
     btrfs-progs
+    squashfs-tools
 )
 
 dnf5 install --setopt=install_weak_deps=False --nogpgcheck --skip-unavailable -y "${LAYERED_PACKAGES[@]}"
