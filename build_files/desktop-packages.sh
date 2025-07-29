@@ -27,7 +27,7 @@ LAYERED_PACKAGES=(
     squashfs-tools
     genisoimage
     syslinux
-    spice-webdav
+    spice-webdavd
 )
 
 dnf5 install --setopt=install_weak_deps=False --nogpgcheck --skip-unavailable -y "${LAYERED_PACKAGES[@]}"
