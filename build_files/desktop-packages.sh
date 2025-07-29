@@ -25,6 +25,8 @@ LAYERED_PACKAGES=(
     ntfs-3g
     btrfs-progs
     squashfs-tools
+    genisoimage
+    syslinux
 )
 
 dnf5 install --setopt=install_weak_deps=False --nogpgcheck --skip-unavailable -y "${LAYERED_PACKAGES[@]}"
